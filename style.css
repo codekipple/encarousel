@@ -1,0 +1,47 @@
+/*  ==========================================================================
+    Objects:Bare List
+    ========================================================================== */
+
+.bare-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/*  ==========================================================================
+    Carousel
+    ========================================================================== */
+.encarousel {
+    position: relative;
+    width: 150px;
+    height: 300px;
+
+    .scrollbar-corner,
+    .enscroll-track {
+        display: none;
+    }
+}
+
+.encarousel__pane {
+    overflow: auto;
+    height: 300px;
+}
+
+.encarousel--next,
+.encarousel--prev {
+    position: absolute;
+    left: 50%;
+}
+
+.encarousel--next {
+    bottom: 10px;
+}
+
+.encarousel--prev {
+    top: 10px;
+}
